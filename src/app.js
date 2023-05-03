@@ -1,18 +1,19 @@
-// let multiplicationTable = [];
+let pronoun = ["her", "his", "their", "our", "my"];
+let adj = ["pretty", "hairy", "small", "great", "bad"];
+let noun = ["book", "leg", "table", "box", "cat", "dog"];
+let dom = [".com", ".org", ".co", ".gov", ".edu"];
 
-// for(let i=1; i<11; i++) {
-//  for(let j=1; j<11; j++) {
-//    multiplicationTable.push('${i} * ${j} = ${i*j}')
-//  }
-// }
-
-// console.log(multiplicationTable)
-
-let prefix = ["big", "important", "very", "cool", "super"];
-let word = ["code", "coders", "tech", "stack", "geeks", "computers"];
-
-for (let i = 0; i < prefix.length; i++) {
-  for (let j = 0; j < word.lenght; j++) {
-    console.log("${prefix[i]}${word[j]}.com");
+for (let i = 0; i < pronoun.length; i++) {
+  for (let j = 0; j < adj.lenght; j++) {
+    {
+      for (let k = 0; k < noun.lenght; j++) {
+        {
+          for (let m = 0; m < dom.lenght; j++) {
+            // eslint-disable-next-line no-console
+            console.log("${pronoun[i]}${adj[j]}${noun[k]}${dom[m]}");
+          }
+        }
+      }
+    }
   }
 }
