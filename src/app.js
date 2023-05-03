@@ -1,11 +1,18 @@
-/* eslint-disable */
-import "bootstrap";
-import "./style.css";
+// let multiplicationTable = [];
 
-import "./assets/img/rigo-baby.jpg";
-import "./assets/img/4geeks.ico";
+// for(let i=1; i<11; i++) {
+//  for(let j=1; j<11; j++) {
+//    multiplicationTable.push('${i} * ${j} = ${i*j}')
+//  }
+// }
 
-window.onload = function() {
-  //write your code here
-  console.log("Hello Rigo from the console!");
-};
+// console.log(multiplicationTable)
+
+let prefix = ["big", "important", "very", "cool", "super"];
+let word = ["code", "coders", "tech", "stack", "geeks", "computers"];
+
+for (let i = 0; i < prefix.length; i++) {
+  for (let j = 0; j < word.lenght; j++) {
+    console.log("${prefix[i]}${word[j]}.com");
+  }
+}
